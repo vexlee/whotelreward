@@ -1,0 +1,35 @@
+body{
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.logo {
+    margin: 15px 0px 15px 165px;
+}
+
+.mainpic {
+    margin: 5px 0px 30px 0px;
+}
+
+.diceimg{
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button{
+   margin-left: 145px;
+   margin-top: 39px;
+   margin-bottom: 50px;
+}
+
+.timer{
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+    padding-top: 20px;
+    font-size: 20px;
+    background-color: pink;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
