@@ -1,4 +1,4 @@
-alert("You have 30 ")
+alert("You have 60 second to complete the challenge.\n\nGood Luck!\n \nHINT: Keep on trying untill pop up message. ")
 
 // timer script
 
@@ -77,7 +77,9 @@ image3.setAttribute("src", randomImageSource);
 
 // Result
 if (randomNumber1 == randomNumber2 && randomNumber1 == randomNumber3) {
-  alert("")
+ 
+  document.getElementById("modalbtn").click();
+ 
 }
 
 else {
