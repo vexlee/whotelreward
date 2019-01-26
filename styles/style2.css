@@ -1,0 +1,22 @@
+.container{
+    background-image: url("images/mainbackground.png");
+}
+.wlogo {
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+
+body {
+    text-align: center;
+    background-image: url("images/mainbackground.png");
+
+}
+
+#roomtype {
+    border-style: solid;
+  border-color: green;
+}
+
+.noted {
+    font-size: 10px;
+}

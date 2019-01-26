@@ -1,4 +1,4 @@
-alert("You have 60 second to complete the challenge.\n\nGood Luck!\n \nHINT: Keep on trying untill pop up message. ")
+alert("You have 60 second to complete the challenge.\n\nGood Luck!\n \nHINT: Keep on trying untill pop up a result. ")
 
 // timer script
 
@@ -14,6 +14,7 @@ function startTimer(duration, display) {
       display.textContent = minutes + ":" + seconds;
 
       if (--timer < 0) {
+        alert("Opps Times out\n Please try again next time.")
           timer = duration;
       }
   }, 1000);

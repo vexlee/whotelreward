@@ -1,7 +1,5 @@
 body{
-    background-color: white;
-    margin: 0px;
-    padding: 0px;
+   background-image: url("images/mainbackground.jpg")
 }
 
 
@@ -13,8 +11,15 @@ body{
     margin: 5px 0px 30px 0px;
 }
 
+.dice{
+    display: inline-flex;
+    height: 120px;
+    background-image: url("/images/bc.png");
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 .diceimg{
-    margin: 10px 7px 10px 7px;
+    margin: 10px 5px 10px 20px;
+    border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -23,13 +28,15 @@ button{
    margin-top: 39px;
    margin-bottom: 50px;
 }
-
+#footer1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
 .timer{
     text-align: center;
     margin: 0px 0px 20px 0px;
+    font-family: 'Rubik', sans-serif;
     padding-top: 20px;
     font-size: 20px;
-    background-color: pink;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
