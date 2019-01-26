@@ -1,6 +1,4 @@
-.container{
-    background-image: url("images/mainbackground.png");
-}
+
 .wlogo {
     text-align: center;
     padding: 20px 0px 20px 0px;
@@ -8,7 +6,7 @@
 
 body {
     text-align: center;
-    background-image: url("images/mainbackground.png");
+    background-image: url(/images/mainbackground.jpg);
 
 }
 
